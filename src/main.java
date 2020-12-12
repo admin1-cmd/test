@@ -11,6 +11,7 @@ class main{
                 while((b = br.readLine())!=null){
                     //得到文件内容放到sb中
                     sb.append(b+'\n');
+                    System.out.println(b+'\n');
                     //这里可以写自己想对每一行的处理代码
                 }
                 String s = sb.toString();
